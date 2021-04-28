@@ -15,6 +15,7 @@
 		035374992639A36700E524EE /* UIKitRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035374982639A36700E524EE /* UIKitRepresentable.swift */; };
 		0353749B2639A3AE00E524EE /* UIViewController+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0353749A2639A3AE00E524EE /* UIViewController+Preview.swift */; };
 		0353749D2639A41A00E524EE /* UIView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0353749C2639A41A00E524EE /* UIView+Preview.swift */; };
+		035374A02639A66100E524EE /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0353749F2639A66100E524EE /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		035374982639A36700E524EE /* UIKitRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitRepresentable.swift; sourceTree = "<group>"; };
 		0353749A2639A3AE00E524EE /* UIViewController+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Preview.swift"; sourceTree = "<group>"; };
 		0353749C2639A41A00E524EE /* UIView+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Preview.swift"; sourceTree = "<group>"; };
+		0353749F2639A66100E524EE /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				035374842639A16600E524EE /* AppDelegate.swift */,
 				035374862639A16600E524EE /* SceneDelegate.swift */,
 				035374882639A16600E524EE /* ViewController.swift */,
+				0353749F2639A66100E524EE /* MyView.swift */,
 				0353749E2639A44A00E524EE /* UIKitLivePreview */,
 				0353748D2639A16800E524EE /* Assets.xcassets */,
 				0353748F2639A16800E524EE /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				035374A02639A66100E524EE /* MyView.swift in Sources */,
 				035374892639A16600E524EE /* ViewController.swift in Sources */,
 				035374992639A36700E524EE /* UIKitRepresentable.swift in Sources */,
 				0353749B2639A3AE00E524EE /* UIViewController+Preview.swift in Sources */,
