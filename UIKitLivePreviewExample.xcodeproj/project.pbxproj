@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0319749D2639AAC900395342 /* LandscapeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319749C2639AAC900395342 /* LandscapeModifier.swift */; };
 		035374852639A16600E524EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035374842639A16600E524EE /* AppDelegate.swift */; };
 		035374872639A16600E524EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035374862639A16600E524EE /* SceneDelegate.swift */; };
 		035374892639A16600E524EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035374882639A16600E524EE /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0319749C2639AAC900395342 /* LandscapeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeModifier.swift; sourceTree = "<group>"; };
 		035374812639A16600E524EE /* UIKitLivePreviewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitLivePreviewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		035374842639A16600E524EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		035374862639A16600E524EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0319749E2639AC0300395342 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0319749C2639AAC900395342 /* LandscapeModifier.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		035374782639A16600E524EE = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +90,7 @@
 				035374982639A36700E524EE /* UIKitRepresentable.swift */,
 				0353749C2639A41A00E524EE /* UIView+Preview.swift */,
 				0353749A2639A3AE00E524EE /* UIViewController+Preview.swift */,
+				0319749E2639AC0300395342 /* Utilities */,
 			);
 			path = UIKitLivePreview;
 			sourceTree = "<group>";
@@ -157,6 +168,7 @@
 				035374892639A16600E524EE /* ViewController.swift in Sources */,
 				035374992639A36700E524EE /* UIKitRepresentable.swift in Sources */,
 				0353749B2639A3AE00E524EE /* UIViewController+Preview.swift in Sources */,
+				0319749D2639AAC900395342 /* LandscapeModifier.swift in Sources */,
 				035374852639A16600E524EE /* AppDelegate.swift in Sources */,
 				035374872639A16600E524EE /* SceneDelegate.swift in Sources */,
 				0353749D2639A41A00E524EE /* UIView+Preview.swift in Sources */,

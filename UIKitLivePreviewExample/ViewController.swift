@@ -6,12 +6,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     private var label: UILabel = UILabel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-     
+        
         view.backgroundColor = .white
         view.addSubview(label)
         
@@ -32,7 +32,7 @@ class ViewController: UIViewController {
                 constant: 0),
         ])
     }
-
+    
 }
 
 #if DEBUG && canImport(SwiftUI)
@@ -43,6 +43,12 @@ struct ViewController_Preview: PreviewProvider {
     static var previews: some View {
         ViewController()
             .preview()
+        
+        ViewController()
+            .preview()
+            .landscape()
+            .previewDisplayName("Landscape Preview")
+        
     }
 }
 #endif
