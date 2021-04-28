@@ -12,6 +12,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        if #available(iOS 13, *) {
+            // no-op on iOS 13. The root view controller is initialized by the SceneDelegate.
+        } else {
+            // On iOS 12 and below, set the window manually.
+            let window = UIWindow(frame: UIScreen.main.bounds)
+            window.rootViewController = ViewController()
+            window.makeKeyAndVisible()
+            self.window = window
+        }
         return true
     }
 
