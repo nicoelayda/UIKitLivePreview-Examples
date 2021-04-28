@@ -3,24 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0319749D2639AAC900395342 /* LandscapeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0319749C2639AAC900395342 /* LandscapeModifier.swift */; };
+		0346EFE12639E56C00D0E629 /* UIKitLivePreview in Frameworks */ = {isa = PBXBuildFile; productRef = 0346EFE02639E56C00D0E629 /* UIKitLivePreview */; };
 		035374852639A16600E524EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035374842639A16600E524EE /* AppDelegate.swift */; };
 		035374872639A16600E524EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035374862639A16600E524EE /* SceneDelegate.swift */; };
 		035374892639A16600E524EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035374882639A16600E524EE /* ViewController.swift */; };
 		0353748E2639A16800E524EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0353748D2639A16800E524EE /* Assets.xcassets */; };
 		035374912639A16800E524EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0353748F2639A16800E524EE /* LaunchScreen.storyboard */; };
-		035374992639A36700E524EE /* UIKitRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035374982639A36700E524EE /* UIKitRepresentable.swift */; };
-		0353749B2639A3AE00E524EE /* UIViewController+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0353749A2639A3AE00E524EE /* UIViewController+Preview.swift */; };
-		0353749D2639A41A00E524EE /* UIView+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0353749C2639A41A00E524EE /* UIView+Preview.swift */; };
 		035374A02639A66100E524EE /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0353749F2639A66100E524EE /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0319749C2639AAC900395342 /* LandscapeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeModifier.swift; sourceTree = "<group>"; };
 		035374812639A16600E524EE /* UIKitLivePreviewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitLivePreviewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		035374842639A16600E524EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		035374862639A16600E524EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,9 +24,6 @@
 		0353748D2639A16800E524EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		035374902639A16800E524EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		035374922639A16800E524EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		035374982639A36700E524EE /* UIKitRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitRepresentable.swift; sourceTree = "<group>"; };
-		0353749A2639A3AE00E524EE /* UIViewController+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Preview.swift"; sourceTree = "<group>"; };
-		0353749C2639A41A00E524EE /* UIView+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Preview.swift"; sourceTree = "<group>"; };
 		0353749F2639A66100E524EE /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,18 +32,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0346EFE12639E56C00D0E629 /* UIKitLivePreview in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0319749E2639AC0300395342 /* Utilities */ = {
+		031974A02639AED100395342 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0319749C2639AAC900395342 /* LandscapeModifier.swift */,
 			);
-			path = Utilities;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		035374782639A16600E524EE = {
@@ -58,6 +51,7 @@
 			children = (
 				035374832639A16600E524EE /* UIKitLivePreviewExample */,
 				035374822639A16600E524EE /* Products */,
+				031974A02639AED100395342 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,23 +70,11 @@
 				035374862639A16600E524EE /* SceneDelegate.swift */,
 				035374882639A16600E524EE /* ViewController.swift */,
 				0353749F2639A66100E524EE /* MyView.swift */,
-				0353749E2639A44A00E524EE /* UIKitLivePreview */,
 				0353748D2639A16800E524EE /* Assets.xcassets */,
 				0353748F2639A16800E524EE /* LaunchScreen.storyboard */,
 				035374922639A16800E524EE /* Info.plist */,
 			);
 			path = UIKitLivePreviewExample;
-			sourceTree = "<group>";
-		};
-		0353749E2639A44A00E524EE /* UIKitLivePreview */ = {
-			isa = PBXGroup;
-			children = (
-				035374982639A36700E524EE /* UIKitRepresentable.swift */,
-				0353749C2639A41A00E524EE /* UIView+Preview.swift */,
-				0353749A2639A3AE00E524EE /* UIViewController+Preview.swift */,
-				0319749E2639AC0300395342 /* Utilities */,
-			);
-			path = UIKitLivePreview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +93,9 @@
 			dependencies = (
 			);
 			name = UIKitLivePreviewExample;
+			packageProductDependencies = (
+				0346EFE02639E56C00D0E629 /* UIKitLivePreview */,
+			);
 			productName = UIKitLivePreviewExample;
 			productReference = 035374812639A16600E524EE /* UIKitLivePreviewExample.app */;
 			productType = "com.apple.product-type.application";
@@ -138,6 +123,9 @@
 				Base,
 			);
 			mainGroup = 035374782639A16600E524EE;
+			packageReferences = (
+				0346EFDF2639E56C00D0E629 /* XCRemoteSwiftPackageReference "UIKitLivePreview" */,
+			);
 			productRefGroup = 035374822639A16600E524EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -166,12 +154,8 @@
 			files = (
 				035374A02639A66100E524EE /* MyView.swift in Sources */,
 				035374892639A16600E524EE /* ViewController.swift in Sources */,
-				035374992639A36700E524EE /* UIKitRepresentable.swift in Sources */,
-				0353749B2639A3AE00E524EE /* UIViewController+Preview.swift in Sources */,
-				0319749D2639AAC900395342 /* LandscapeModifier.swift in Sources */,
 				035374852639A16600E524EE /* AppDelegate.swift in Sources */,
 				035374872639A16600E524EE /* SceneDelegate.swift in Sources */,
-				0353749D2639A41A00E524EE /* UIView+Preview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +347,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0346EFDF2639E56C00D0E629 /* XCRemoteSwiftPackageReference "UIKitLivePreview" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nicoelayda/UIKitLivePreview.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0346EFE02639E56C00D0E629 /* UIKitLivePreview */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0346EFDF2639E56C00D0E629 /* XCRemoteSwiftPackageReference "UIKitLivePreview" */;
+			productName = UIKitLivePreview;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 035374792639A16600E524EE /* Project object */;
 }

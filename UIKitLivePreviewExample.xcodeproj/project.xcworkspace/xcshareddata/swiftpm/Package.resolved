@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "UIKitLivePreview",
+        "repositoryURL": "https://github.com/nicoelayda/UIKitLivePreview.git",
+        "state": {
+          "branch": null,
+          "revision": "c02c87c292c2300167a9f5c31ca66775b1cdbd64",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
