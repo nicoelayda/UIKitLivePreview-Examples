@@ -42,8 +42,14 @@ import SwiftUI
 @available(iOS 13.0, *)
 struct ViewController_Preview: PreviewProvider {
     static var previews: some View {
+        
         ViewController()
             .preview()
+            .device(.iPhone12)
+        
+        ViewController()
+            .preview()
+            .device(.iPadPro11_3rdGen)
         
         ViewController()
             .preview()
