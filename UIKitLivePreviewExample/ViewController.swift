@@ -45,7 +45,17 @@ struct ViewController_Preview: PreviewProvider {
         
         ViewController()
             .preview()
-            .device(.iPhone12)
+            .device(.iPhone13Pro)
+        
+        ViewController()
+            .preview()
+            .landscape()
+            .previewDisplayName("iPhone 13 Pro Max Landscape Preview")
+            .device(.iPhone13ProMax)
+        
+        ViewController()
+            .preview()
+            .device(.iPadMini_6thGen)
         
         ViewController()
             .preview()
@@ -53,9 +63,7 @@ struct ViewController_Preview: PreviewProvider {
         
         ViewController()
             .preview()
-            .landscape()
-            .previewDisplayName("Landscape Preview")
-        
+            .device(.iPadPro12_9_5thGen)
     }
 }
 #endif
