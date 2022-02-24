@@ -1,16 +1,14 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "UIKitLivePreview",
-        "repositoryURL": "https://github.com/nicoelayda/UIKitLivePreview.git",
-        "state": {
-          "branch": null,
-          "revision": "8f5740d2ecaeae502a6d7738f8bdc5079914a4e4",
-          "version": "1.3.0"
-        }
+  "pins" : [
+    {
+      "identity" : "uikitlivepreview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nicoelayda/UIKitLivePreview.git",
+      "state" : {
+        "revision" : "e15c8dcc205465e9418408496a97c0b33e431f1d",
+        "version" : "1.3.1"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 2
 }
