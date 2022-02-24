@@ -55,15 +55,7 @@ struct ViewController_Preview: PreviewProvider {
         
         ViewController()
             .preview()
-            .device(.iPadMini_6thGen)
-        
-        ViewController()
-            .preview()
             .device(.iPadPro11_3rdGen)
-        
-        ViewController()
-            .preview()
-            .device(.iPadPro12_9_5thGen)
     }
 }
 #endif
